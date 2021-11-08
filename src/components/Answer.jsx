@@ -4,23 +4,21 @@ import { makeStyles, createStyles } from '@mui/styles';
 
 const useStyles = makeStyles(() =>
   createStyles({
-    button: {
-      borderColor: '#ffbb33',
-      color: '#ffbb33',
+    "button": {
+      borderColor: '#ffbb33 !important',
+      color: '#ffbb33 !important',
       fontWeight: 600,
-      marginBottom:'8px',
+      marginBottom:'8px !important',
       "&:hover":{
-          backgroundColor: '#ffbb33',
-          color: '#fff'
+          backgroundColor: '#ffbb33 !important',
+          color: '#fff !important'
       }
     },
   }),
 );
 
-
 const Answer = (props) => {
     const classes = useStyles();
-    
     return(
         <Button
             className={classes.button}
@@ -35,5 +33,5 @@ const Answer = (props) => {
 export default Answer
 
 
-// import Button from '@material-ui/core/Button';
-// import {makeStyles} from '@material-ui/core/styles';
+
+

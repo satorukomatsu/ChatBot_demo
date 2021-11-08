@@ -57,6 +57,8 @@ export default class App extends React.Component {
     this.selectAnswer(initAnswer, this.state.currentId)
   }
 
+  
+
   render() {
     return (
       <section className="c-section">
